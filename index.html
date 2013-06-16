@@ -16,11 +16,15 @@
 				Your browser doesn't support impress.js.  Try Chrome or Safari.
 			</div>
 			
-			<div id="welcome" class="step" data-x="-1100" data-y="0">
+			<div id="welcome" class="step" data-x="-2100" data-y="0">
 				<h1>What is new in Google Play Services?</h1>
 				<p class="email">alvaro.pereda.sancho@teamaol.com</p>
 			</div>
 			
+			<div id="sessions" class="step" data-x="-1100" data-y="0">
+				<img src="images/sessions.png"/>
+			</div>
+
 			<div id="intro" class="step" data-x="100" data-y="0">
 
 				<img src="https://lh5.googleusercontent.com/-VPkPCA8B4aM/UbtIhD9h3DI/AAAAAAAATeE/6h6OlqOMElE/w506-h675-o/IMG_20130517_182829.jpg"/>
@@ -34,6 +38,15 @@
 			<div id="reto" class="step" data-x="-100" data-y="-800" data-rotate-x="60" data-rotate-y="60" data-rotate-z="30">
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/49pWckcaZEI" frameborder="0" allowfullscreen></iframe>
 				<p><a href="https://developers.google.com/events/io/sessions/324498944">What's new in Google Play Services</a></p>
+			</div>
+
+			<div id="menu" class="step" data-x="1000" data-y="-1800">
+				<ul>
+					<li>Facts</li>
+					<li>Services</li>
+					<li>Use cases</li>
+					<li>Show me the code!</li>
+				</ul>
 			</div>
 			
 			<div id="facts" class="step" data-x="1000" data-y="-800">
@@ -70,14 +83,14 @@
 				<p>To have a quicker release cycle than the manufacturer's update.</p>
 			</div>
 			
-			<div id="services" class="step" data-x="2000" data-y="-620" >
+			<div id="services" class="step" data-x="2000" data-y="-1300" >
 				<h1>Services</h1>
-				<p class="google">Google+</p>
-				<p class="maps">Maps</p>
 				<p class="location">Location</p>
 				<p class="gaming">Gaming</p>
-				<p class="cloud">Google Cloud Messaging</p>
+				<p class="google">Google+</p>
+				<p class="cloud">GCM</p>
 				<p class="wallet">Wallet</p>
+				<p class="maps">Maps</p>
 			</div>
 			
 			<div id="location-vid" class="step" data-x="3200" data-y="-1300">
@@ -99,7 +112,7 @@
 				</ul>
 			</div>
 
-			<div id="quality" class="step hide" data-x="3200" data-y="-480">
+			<div id="quality" class="step hide" data-x="3200" data-y="-530">
 				<ul>
 					<li>What care do we have for user's battery life?</li>
 					<li>Do we provide with accurate data when it's necessary?</li>
@@ -114,114 +127,123 @@
 				<p><a href="https://developers.google.com/events/io/sessions/324858737">An introduction to Play Game Services (aka New Developments in Mobile Gaming).</a></p>
 			</div>
 
-			<div id="gaming" class="step" data-x="4400" data-y="-820">
-				<h1>What's new</h1>
+			<div id="gaming" class="step fact" data-x="4400" data-y="-790">
 				<ul>
 					<li>Achievements</li>
 					<li>Leaderboards</li>
-					<li>Cloud Save: 4x128KB of data with conflict resolution</li>
 					<li>Real Time Multiplayer</li>
+					<li>Cloud Save</li>
 					<li>New Developer Console</li>
-					<li>Backend support</li>
 					<li>G+ sign in</li> 
-					<li>Caching, auto retry for free</li>
+					<li>Caching and auto retry</li>
 				</ul>
 			</div>
 
-			<div id="gamification" class="step hide" data-x="4700" data-y="-820">
-				<h1>Aol Gamification</h1>
+			<div id="gamification" class="step hide" data-x="4700" data-y="-790">
 				<ul>
-					<li>Socializing</li>
-					<li>Mastery</li>
+					<li>Mastery &amp; Accomplishment</li>
 					<li>Notifications</li>
-					<li>Accomplishment</li>
+					<li>Socialising</li>
 					<li>Online Profile</li>
-					<li>Real time invite</li>
-					<li>Backend support</li>
 				</ul>
 			</div>
 
-			<div id="plus-vid" class="step" data-x="2000" data-y="0">
+			<div id="plus-vid" class="step" data-x="2000" data-y="200">
 				<h1>Google Plus</h1>
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/_KBHf1EODuk" frameborder="0" allowfullscreen></iframe>
 				<p><a href="https://developers.google.com/events/io/sessions/324806378">Google+ Sign-In for Android Developers</a></p>
 			</div>
 
-			<div id="plus" class="step" data-x="2000" data-y="480">
-				<h1>what's new</h1>
+			<div id="plus" class="step fact" data-x="2000" data-y="580">
 				<ul>
-					<li>Over The Air installation</li>
-					<li>Transparent to the Application</li>
 					<li>Application Activity</li>
+					<li>Over The Air installation</li>
+					<li>Transparent Auth system</li>
 				</ul>
 			</div>
 
-			<div id="auth" class="step hide" data-x="2300" data-y="480">
-				<h1>Aol account</h1>
+			<div id="auth" class="step hide" data-x="2000" data-y="840">
 				<a href="http://developer.android.com/training/id-auth/custom_auth.html">Creating a Custom Account Type</a>
 			</div>
 
 			<div id="cloud-vid" class="step" data-x="3200" data-y="200">
 				<h1>Google Cloud Messaging</h1>
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/_KBHf1EODuk" frameborder="0" allowfullscreen></iframe>
-				<p><a href="https://developers.google.com/events/io/sessions/324806378">Google+ Sign-In for Android Developers</a></p>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/y76rjidm8cU" frameborder="0" allowfullscreen></iframe>
+				<p><a href="https://developers.google.com/events/io/sessions/324893448">Google Cloud Messaging</a></p>
 			</div>
 
-			<div id="cloud" class="step" data-x="3200" data-y="680">
-				<h1>what's new</h1>
+			<div id="cloud" class="step fact" data-x="3200" data-y="550">
 				<ul>
-					<li>Among devices</li>
-					<li>Persistent XMPP connection with the server</li>
-					<li>Notifications</li>
+					<li>Send to sync</li>
+					<li>Send data</li>
+					<li>Upstream Messaging</li>
+					<li>User Notifications</li>
 				</ul>
 			</div>
 
-			<div id="aol-cloud" class="step hide" data-x="3500" data-y="680">
-				<h1>Aol cloud</h1>
-				<ul>
-					<li>Push on change, instead of pull every x time.</li>
-					<li>Aol APIs</li>
-				</ul>
+			<div id="aol-cloud" class="step hide" data-x="3200" data-y="710">
+				<h1 class="warning">Use it!</h1>
+				<a href="https://developer.android.com/google/gcm">API Reference</a>
 			</div>
 
-			<div id="wallet-vid" class="step" data-x="4400" data-y="0">
+			<div id="wallet-vid" class="step" data-x="4400" data-y="200">
 				<h1>Google Wallet</h1>
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/_KBHf1EODuk" frameborder="0" allowfullscreen></iframe>
-				<p><a href="https://developers.google.com/events/io/sessions/324806378">Google+ Sign-In for Android Developers</a></p>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/RqsIPFPoQpQ" frameborder="0" allowfullscreen></iframe>
+				<p><a href="https://developers.google.com/events/io/sessions/330844794">Google Wallet Instant Buy</a></p>
 			</div>
 
-			<div id="wallet" class="step" data-x="4400" data-y="480">
-				<h1>what's new</h1>
+			<div id="wallet" class="step" data-x="4400" data-y="580">
 				<ul>
-					<li>Among devices</li>
-					<li>Persistent XMPP connection with the server</li>
-					<li>Notifications</li>
+					<li>Faster checkout for physical goods</li>
+					<li>Skip registration and sign-in</li>
+					<li>Secure</li>
 				</ul>
 			</div>
 
-			<div id="aol-wallet" class="step hide" data-x="4700" data-y="480">
-				<h1>Aol cloud</h1>
+			<div id="aol-wallet" class="step hide" data-x="4700" data-y="580">
 				<ul><li>Sell physical goods inside the Application</li></ul>
+				<a href="https://developers.google.com/events/io/sessions/324958374">Code session</a>
 			</div>
 
-			<div id="maps-vid" class="step" data-x="5600" data-y="0">
+			<div id="maps-vid" class="step" data-x="5600" data-y="200">
 				<h1>Google Maps</h1>
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/_KBHf1EODuk" frameborder="0" allowfullscreen></iframe>
 				<p><a href="https://developers.google.com/events/io/sessions/324806378">Google+ Sign-In for Android Developers</a></p>
 			</div>
 
-			<div id="maps" class="step" data-x="5600" data-y="480">
-				<h1>what's new</h1>
-				<h2>Who cares?</h2>
+			<div id="maps" class="step" data-x="5600" data-y="580">
+				<h1>Who cares?</h1>
 			</div>
 
-			<div id="aol-maps" class="step hide" data-x="5900" data-y="480">
+			<div id="aol-maps" class="step hide" data-x="5900" data-y="580">
 				<h1>Mapquest</h1>
 				<ul>
 					<li>Vector</li>
 					<li>Fragments</li>
 				</ul>
 			</div>
+
+			<div id="recap" class="step" data-x="2000" data-y="-1300" >
+			</div>
+
+			<div id="learnt" class="step hide" data-x="2200" data-y="-1300" >
+				<h1>Aol Services</h1>
+				<ul>
+					<li>Context aware</li>
+					<li>Common API</li>
+					<li>Authentication service</li>
+					<li>Server Notifications</li>
+					<li>In applicaton purchase</li>
+					<li>Mapquest</li>
+				</ul>
+			</div>
+
+			<div id="daydream" class="step hide" data-x="2200" data-y="-800" data-scale="0.5">
+				<img src="images/androids-daydream.png"/>
+			</div>
+
+			<div id="overview" class="step" data-x="2800" data-y="-500" data-scale="3">
+    		</div>
 		</div>
 		<script type="text/javascript" src="impress.js"></script>
 	</body>

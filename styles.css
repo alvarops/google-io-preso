@@ -71,7 +71,7 @@ a:focus {
 
 .step { 
 	position: relative;
-    width: 940px;
+    width: 900px;
     padding: 40px;
     margin: 20px auto;
 
@@ -91,6 +91,8 @@ a:focus {
     font-size: 48px;
     line-height: 56px;
     letter-spacing: -1px;
+    font-weight: bold;
+    padding: 20px 0px;
 }
 
 .step .email {
@@ -154,4 +156,53 @@ a:focus {
 
 .step.hide.active {
 	opacity:1;
+}
+
+#gamification ul {
+	margin-left: 100px;
+}
+.warning {
+	color:red;
+}
+.crossme {
+	height: 300px;
+	margin-top: 0px;
+	width: 300px;
+	padding: 0;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0.47, #FFFF00),
+    color-stop(0.5, #000000),
+    color-stop(0.53, #FFFF00),
+    color-stop(1, #FFFF00)
+);
+background-image: -moz-linear-gradient(
+    left bottom, 
+    rgba(0,0,0, 0) 47%,
+    #ff0000 50%,
+    rgba(0,0,0, 0) 53%
+);
+}
+#crossme {
+	height: 300px;
+	margin-top: 0px;
+	width: 300px;
+	padding: 0;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0.47, #FFFF00),
+    color-stop(0.5, #000000),
+    color-stop(0.53, #FFFF00),
+    color-stop(1, #FFFF00)
+);
+background-image: -moz-linear-gradient(
+    right bottom, 
+    rgba(0,0,0, 0) 47%,
+    #ff0000 50%,
+    rgba(0,0,0, 0) 53%
+);
 }
